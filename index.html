@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="test.js"></script>
+</head>
+<body>
+    <ul id="list"></ul>
+
+    <script>
+        let list = document.getElementById('list')
+        for (let item of arr) {
+            console.log(item)
+            let li = document.createElement('li')
+            li.innerHTML = item
+            list.appendChild(li)
+        }
+    </script>
+</body>
+</html>
