@@ -1,0 +1,1 @@
+let arr = ['aaa', 'bbb1']
