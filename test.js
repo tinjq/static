@@ -1,1 +1,1 @@
-let arr = ['aaa', 'bbb1']
+let arr = ['aaa', 'bbb', 'ccc']
